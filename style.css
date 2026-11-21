@@ -1,0 +1,186 @@
+.home{
+	background-image: url(flag.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: cursive;
+}
+body{
+	background-color: white;
+	color: black;
+}
+.dark-mode{
+	background-color: black;
+	color: white;
+}
+header{
+	background-image: url(waterfall.jpg);
+	padding: 20px;
+	border: 1px solid;
+	box-shadow: 0 8px 20px rgb(0, 0, 0 / 20);
+	border-radius: 19px;
+	margin: 20px;
+	text-align: center;
+	font-family: cursive;
+	height: 100px;
+}
+nav{
+	margin-left: 400px;
+	margin-top: -24px;
+}
+footer{
+	text-align: center;
+}
+img{
+	border-radius: 14px;
+}
+.A{
+	width: 700px;
+	height: 600px;
+ 	margin-left: 400px;
+ 	margin-top: 200px;
+	color: blueviolet;
+	text-align: center;
+}
+.B{
+	width: 400px;
+	background-color: darkgray;
+	border-radius: 14px;
+	border: 3px solid;
+}
+.C{ 
+	width: 400px;
+	background-color: darkgray; 
+	border-radius: 14px;
+ 	margin-left: 510px;
+ 	margin-top: -665px;
+ 	border: 3px solid;
+}
+.D{
+	width: 400px;
+	background-color: darkgray; 
+	border-radius: 14px;
+ 	margin-left: 1000px;
+ 	margin-top: -700px;
+ 	border: 3px solid;
+}
+.E{
+	width: 400px;
+	background-color: darkgray; 
+	border-radius: 14px;
+	margin-left: 200;
+	border: 3px solid;
+}
+.F{
+	width: 400px;
+	background-color: darkgray; 
+	border-radius: 14px;
+	margin-left: 520px;
+	margin-top: -665px;
+	border: 3px solid;
+}
+.G{
+	width: 400px;
+	background-color: darkgray; 
+	border-radius: 14px;
+	margin-left: 1000px;
+	margin-top: -684px;
+	border: 3px solid
+}
+.H{
+	background-color: darkgray;
+	width: 1000px;
+	border-radius: 14px;
+}
+.I{
+	background-color: darkgray;
+	width: 1500px;
+	border-radius: 14px;
+}
+.J{
+	margin-left: 750px;
+	margin-top: -470px;
+}
+.form{
+	background-color: darkgray;
+	border-radius: 10px;
+	width: 50%;
+	box-shadow: 0 10px 30px rgb(0, 0, 0 / 1.0);
+	border: 2px solid;
+}
+.one{
+	margin-left: 350px;
+	margin-top: -350px;
+}
+.two{
+	margin-left: 700px;
+	margin-top: -350px;
+}
+.three{
+	margin-left: 1050px;
+	margin-top: -350px;
+}
+.four{
+	margin-left: 350px;
+	margin-top: -350px;
+}
+.five{
+	margin-left: 700px;
+	margin-top: -350px;
+}
+.six{
+	margin-left: 1050px;
+	margin-top: -355px;
+}
+.form2{
+	background-color: darkgray;
+	border-radius: 10px;
+	width: 50%;
+	box-shadow: 5px 10px 30px rgb(0, 0, 0 / 1.0);
+	border: 2px solid;
+	margin-left: 55%;
+	margin-top: -58%;
+	height: 750px;
+}
+@media(max-width: 768px){
+	nav{
+		margin-left: 200px;
+		margin-top: -9px;
+	}
+	.A{
+		margin-left: 40px;
+	}
+	.home{
+		background-image: url(flag.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		font-family: cursive;
+	}  
+	.form2{
+		margin-top: -106%;
+	}	
+}
+@media(max-width: 320px){
+	header{
+		width: 500px;
+		margin-left: -2px;
+	}
+	nav{
+		margin-left: 0px;
+
+	}
+	.form2{
+		margin-left: 0%;
+		margin-top: 3%;
+		width: 300px;
+	}
+	.form{
+		width: 300px;
+	}
+	
+
+
+}
